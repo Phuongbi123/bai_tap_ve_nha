@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main{
+
+}
+
+.menu{
+   list-style: none;
+   display: flex;  
+}
+
+.menu{
+    display: inline-block;
+}
+.menu>li{
+    display: inline-block;  
+    position: relative;
+}
+.menu> li> a{
+    text-decoration: none;
+    padding: 0 20px;
+    line-height: 50px;
+    color: white;
+    display: block;
+    text-transform: uppercase;
+}
+.menu li:hover a{ 
+    color:#000;
+    background: #CCC;
+}
+
+.menu .sub{
+    position:absolute;
+    list-style: none;
+    background: white;
+    display: none;
+    width: 150px;
+    text-indent: 10px;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.1);  
+}
+.menu .sub li a{
+    background: white;
+    line-height: 40px;
+   
+}
+.sub li:hover a{
+    color:black;
+    background: #ccc;
+}
+.menu li:hover .sub{
+    display: block;
+}
+.sub li a{
+    text-decoration: none;
+    display: block;
+}
+
+.far{
+    color:white;
+    font-size: 15px;
+}
+#header .search-btn .fa{
+    line-height:50px;
+    padding:0 25px;
+    cursor: pointer;
+}
+#header .search-btn{
+    float: right;
+}
+#header .search-btn .fa:hover{
+    background: red;
+}
+
+#header{
+    width: 100%;
+    height: 50px;
+    background: rgb(73, 69, 69);
+    color: white;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: fixed;
+}
+#slider{
+background: red;
+min-height: 500px;
+}
+#content{}
+
+.content-section{
+    width:800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 0;
+}
+
+.section-heading{
+    letter-spacing: 4px;
+    font-size: 30px;
+    font-weight: 500px;
+    text-align: center;
+}
+.section-sub{
+    text-align: center;
+    margin-top: 25px;
+    font-style: italic;
+    opacity: 0.6;
+    font-size: 15px;
+
+}
+.about-text{
+    font-size: 15px;
+    margin-top: 25PX;
+    text-align: justify;
+    line-height: 1.6;
+}
+.member{
+    margin-top: 46px;
+    display: flex;
+    width: calc(100%/3);
+    margin-left: 140px;
+   
+    
+}
+.member-name{
+    text-align: center;
+   
+}
+    
+.member.member-name .anh{
+    width: 60px;
+    height: 70px;
+   
+}
+
+    
+
+   
+#fooder{
+}
+/* phần tour */
+.text-while{
+    color: white;
+}
+.tour{
+    background-color: black;
+    height: 900px;
+}
+.tickets-list {
+    background-color: white;
+    margin-top: 40px;
+}
+.tickets-list li{
+    font-size: 15px;
+    padding: 11px 16px;
+    border-bottom: 1px solid #ddd;
+
+}
+.tickets-list .sold-out{
+    background-color: red;
+    color: #fff;
+    padding: 3px 4px;
+    margin-left: 16px;
+}
+
+
+.tickets-list .sold-out{
+
+}
+.tickets-list .quantily{
+    float: right;
+   
+    width: 24px;
+    background-color: black;
+    border-radius: 50%;
+ 
+    color: white;
+    text-align: center;
+    line-height: 24px;
+    margin-top: -3px;
+}
+
+
+
+.places-list{
+    margin-top: 32px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+   
+    
+    
+
+}
+.places-item{
+
+
+  
+}
+.places-list{}
+.places-img{
+   
+   
+}
